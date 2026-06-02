@@ -1,3 +1,9 @@
+Logseq LF
+=========
+
+A maintained version of Logseq from the last(?) branch with local-folder feature, tag 0.10.9.
+<hr>
+
 <!-- logo -->
 <p align="center">
     <a href="https://logseq.com" alt="Logseq Logo">
