@@ -2,6 +2,10 @@ Logseq LF
 =========
 
 A maintained version of Logseq from the last(?) branch with local-folder feature, tag 0.10.9.
+
+How to get the client-only app and deploy
+  - Clone this repo, branch: master-with-localfolder
+  - The content of projectRoot/static is the static app.
 <hr>
 
 <!-- logo -->
