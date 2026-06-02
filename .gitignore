@@ -14,7 +14,7 @@ pom.xml.asc
 .nbb/
 
 node_modules/
-static/**
+!static/**
 !static/yarn.lock
 tmp
 cljs-test-runner-out
@@ -54,7 +54,7 @@ startup.png
 android/app/src/main/assets/capacitor.config.json
 
 *.sublime-*
-/public/static
+!/public/static
 .yarn/
 .yarnrc.yml
 

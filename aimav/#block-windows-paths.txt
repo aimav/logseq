@@ -1,0 +1,15 @@
+Fix: Block Windows PATH from leaking into WSL
+Edit (or create) /etc/wsl.conf inside WSL:
+bash 
+
+sudo nano /etc/wsl.conf
+
+Add:
+
+ini[interop]
+appendWindowsPath = false
+
+Then restart WSL from PowerShell:
+powershellwsl --shutdown
+
+Reopen WSL and verify

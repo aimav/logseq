@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"goog.crypt.sha256.js",
+"lineCount":8,
+"mappings":"AAeAA,IAAKC,CAAAA,OAAL,CAAa,mBAAb,CAAA;AAEAD,IAAKE,CAAAA,OAAL,CAAa,iBAAb,CAAA;AAYAF,IAAKG,CAAAA,KAAMC,CAAAA,MAAX,GAAoBC,QAAQ,EAAG;AAE7BL,MAAKG,CAAAA,KAAMC,CAAAA,MAAOE,CAAAA,IAAlB,CACI,IADJ,EACU,aADV,EACyB,CADzB,EAC4BN,IAAKG,CAAAA,KAAMC,CAAAA,MAAOG,CAAAA,gBAD9C,CAAA;AAF6B,CAA/B;AAKAP,IAAKQ,CAAAA,QAAL,CAAcR,IAAKG,CAAAA,KAAMC,CAAAA,MAAzB,EAAiCJ,IAAKG,CAAAA,KAAMM,CAAAA,IAA5C,CAAA;AAIAT,IAAKG,CAAAA,KAAMC,CAAAA,MAAOG,CAAAA,gBAAlB,GAAqC,CACnC,UADmC,EACvB,UADuB,EACX,UADW,EACC,UADD,EACa,UADb,EACyB,UADzB,EAEnC,SAFmC,EAEvB,UAFuB,CAArC;;",
+"sources":["goog/crypt/sha256.js"],
+"sourcesContent":["/**\n * @license\n * Copyright The Closure Library Authors.\n * SPDX-License-Identifier: Apache-2.0\n */\n\n/**\n * @fileoverview SHA-256 cryptographic hash.\n *\n * Usage:\n *   var sha256 = new goog.crypt.Sha256();\n *   sha256.update(bytes);\n *   var hash = sha256.digest();\n */\n\ngoog.provide('goog.crypt.Sha256');\n\ngoog.require('goog.crypt.Sha2');\n\n\n\n/**\n * SHA-256 cryptographic hash constructor.\n *\n * @constructor\n * @extends {goog.crypt.Sha2}\n * @final\n * @struct\n */\ngoog.crypt.Sha256 = function() {\n  'use strict';\n  goog.crypt.Sha256.base(\n      this, 'constructor', 8, goog.crypt.Sha256.INIT_HASH_BLOCK_);\n};\ngoog.inherits(goog.crypt.Sha256, goog.crypt.Sha2);\n\n\n/** @private {!Array<number>} */\ngoog.crypt.Sha256.INIT_HASH_BLOCK_ = [\n  0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a, 0x510e527f, 0x9b05688c,\n  0x1f83d9ab, 0x5be0cd19\n];\n"],
+"names":["goog","provide","require","crypt","Sha256","goog.crypt.Sha256","base","INIT_HASH_BLOCK_","inherits","Sha2"]
+}

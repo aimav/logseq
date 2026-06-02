@@ -1,0 +1,1 @@
+{"version":3,"sources":["logseq/sdk/core.cljs"],"mappings":";AAGA,0BAAA,1BAAcA","names":["logseq.sdk.core/version"],"sourcesContent":["(ns logseq.sdk.core\n  (:require [logseq.sdk.debug]))\n\n(def ^:export version \"20230330\")\n"]}

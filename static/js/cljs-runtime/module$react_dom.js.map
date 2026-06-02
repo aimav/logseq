@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"module$react_dom.js",
+"lineCount":1,
+"mappings":"AAAAA,cAAA,CAAA,gBAAA,CAAqC,QAAQ,CAACC,MAAD,CAAQC,OAAR,CAAgBC,MAAhB,CAAuBC,OAAvB,CAAgC,CAC7ED,MAAOC,CAAAA,OAAP,CAAgBC,QAD6D;",
+"sources":["global$module$react_dom.js"],
+"sourcesContent":["shadow$provide[\"module$react_dom\"] = function(global,require,module,exports) {\nmodule.exports=(ReactDOM);\n};"],
+"names":["shadow$provide","global","require","module","exports","ReactDOM"]
+}

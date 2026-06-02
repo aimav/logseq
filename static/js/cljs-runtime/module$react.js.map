@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"module$react.js",
+"lineCount":1,
+"mappings":"AAAAA,cAAA,CAAA,YAAA,CAAiC,QAAQ,CAACC,MAAD,CAAQC,OAAR,CAAgBC,MAAhB,CAAuBC,OAAvB,CAAgC,CACzED,MAAOC,CAAAA,OAAP,CAAgBC,KADyD;",
+"sources":["global$module$react.js"],
+"sourcesContent":["shadow$provide[\"module$react\"] = function(global,require,module,exports) {\nmodule.exports=(React);\n};"],
+"names":["shadow$provide","global","require","module","exports","React"]
+}
